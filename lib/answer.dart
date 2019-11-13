@@ -10,6 +10,7 @@ class Answer extends StatelessWidget {
       width: double.infinity,
       margin: EdgeInsets.all(10),
       child: RaisedButton(
+        textColor: Colors.white,
         child: Text(text),
         onPressed: callback,
       ),
